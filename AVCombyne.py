@@ -184,7 +184,11 @@ class AVCombyne:
                 audioPath = None
 
             if videoPath is not None and audioPath is not None:
-                outputName, ext = os.path.splitext(videoName)
+                if self.nameBaseVar.get() == "audio":
+                    outputBaseName = audioName
+                elif self.nameBaseVar.get() == "video":
+                    outputBaseName = videoName
+                outputName, ext = os.path.splitext(outputBaseName)
                 outputPath = os.path.join(outputDir, outputName+'_merged.avi')
                 command = generateMergeCommand(commandTemplate=commandTemplate, videoPath=videoPath, audioPath=audioPath, outputPath=outputPath)
                 commands.append(command)

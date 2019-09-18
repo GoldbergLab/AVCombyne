@@ -12,13 +12,17 @@
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\datetime.py',
    'PYMODULE'),
-  ('stringprep',
+  ('typing',
    'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\stringprep.py',
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\typing.py',
    'PYMODULE'),
-  ('tracemalloc',
+  ('fnmatch',
    'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\tracemalloc.py',
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\_compat_pickle.py',
    'PYMODULE'),
   ('__future__',
    'c:\\users\\brian '
@@ -192,10 +196,6 @@
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\tempfile.py',
    'PYMODULE'),
-  ('subprocess',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\subprocess.py',
-   'PYMODULE'),
   ('tty',
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\tty.py',
@@ -252,10 +252,6 @@
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\uu.py',
    'PYMODULE'),
-  ('quopri',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\quopri.py',
-   'PYMODULE'),
   ('email.feedparser',
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\feedparser.py',
@@ -303,10 +299,6 @@
   ('email.charset',
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\charset.py',
-   'PYMODULE'),
-  ('base64',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\base64.py',
    'PYMODULE'),
   ('email._encoded_words',
    'c:\\users\\brian '
@@ -360,17 +352,9 @@
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\message.py',
    'PYMODULE'),
-  ('bz2',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\bz2.py',
-   'PYMODULE'),
   ('lzma',
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\lzma.py',
-   'PYMODULE'),
-  ('_compression',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\_compression.py',
    'PYMODULE'),
   ('gzip',
    'c:\\users\\brian '
@@ -392,10 +376,6 @@
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\shutil.py',
    'PYMODULE'),
-  ('selectors',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\selectors.py',
-   'PYMODULE'),
   ('socket',
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\socket.py',
@@ -407,10 +387,6 @@
   ('pydoc',
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\pydoc.py',
-   'PYMODULE'),
-  ('getopt',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\getopt.py',
    'PYMODULE'),
   ('pdb',
    'c:\\users\\brian '
@@ -428,29 +404,9 @@
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\string.py',
    'PYMODULE'),
-  ('_threading_local',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\_threading_local.py',
-   'PYMODULE'),
-  ('threading',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\threading.py',
-   'PYMODULE'),
-  ('_compat_pickle',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\_compat_pickle.py',
-   'PYMODULE'),
-  ('pickle',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\pickle.py',
-   'PYMODULE'),
   ('logging',
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\logging\\__init__.py',
-   'PYMODULE'),
-  ('pprint',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\pprint.py',
    'PYMODULE'),
   ('unittest.case',
    'c:\\users\\brian '
@@ -459,22 +415,6 @@
   ('unittest.suite',
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\suite.py',
-   'PYMODULE'),
-  ('stat',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\stat.py',
-   'PYMODULE'),
-  ('genericpath',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\genericpath.py',
-   'PYMODULE'),
-  ('posixpath',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\posixpath.py',
-   'PYMODULE'),
-  ('fnmatch',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\fnmatch.py',
    'PYMODULE'),
   ('unittest.loader',
    'c:\\users\\brian '
@@ -488,10 +428,6 @@
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\main.py',
    'PYMODULE'),
-  ('signal',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\signal.py',
-   'PYMODULE'),
   ('unittest.signals',
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\signals.py',
@@ -500,13 +436,9 @@
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\__init__.py',
    'PYMODULE'),
-  ('struct',
+  ('doctest',
    'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\struct.py',
-   'PYMODULE'),
-  ('gettext',
-   'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\gettext.py',
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\doctest.py',
    'PYMODULE'),
   ('textwrap',
    'c:\\users\\brian '
@@ -516,21 +448,89 @@
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\argparse.py',
    'PYMODULE'),
-  ('doctest',
+  ('pprint',
    'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\doctest.py',
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\pprint.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\pickle.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\_compression.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\bz2.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\base64.py',
+   'PYMODULE'),
+  ('stat',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\stat.py',
+   'PYMODULE'),
+  ('genericpath',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('posixpath',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\signal.py',
    'PYMODULE'),
   ('contextlib',
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\contextlib.py',
    'PYMODULE'),
-  ('typing',
+  ('_threading_local',
    'c:\\users\\brian '
-   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\typing.py',
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\threading.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\selectors.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\struct.py',
    'PYMODULE'),
   ('copy',
    'c:\\users\\brian '
    'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\copy.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\gettext.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\getopt.py',
+   'PYMODULE'),
+  ('quopri',
+   'c:\\users\\brian '
+   'kardon\\appdata\\local\\programs\\python\\python37-32\\lib\\quopri.py',
    'PYMODULE'),
   ('os',
    'c:\\users\\brian '
